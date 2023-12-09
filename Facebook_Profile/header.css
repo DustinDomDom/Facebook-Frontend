@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    height: 3000px;
+    padding-top: 60px;
+    background-color: #1c1e21;
+}
+
+.Header {
+    background-color: #282828;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 0px;
+    height: 60px;
+    right: 0px;
+    left: 0px;
+    border-bottom: 1px solid #4A4A4A;
+}
+
+.Left-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 550px;
+}
+
+.Left-bar input {
+    padding-left: 30px;
+}
+
+.Left-bar i {
+    position: absolute;
+    top: 50%;
+    left: 70px;
+    transform: translateY(-50%);
+    color: #cccccc;
+}
+
+.Logo { 
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.Search-Icon {
+    color: black;
+    font-size: 15px;
+    padding-left: 50px;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #4A4A4A;
+}
+
+.Middle-bar {
+    width: 700px;
+    margin-left: 100px;
+    margin-right: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.middle-icon {
+    font-size: 20px;
+    color: gray;
+    margin: 5px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.middle-icon:hover {
+    background-color: #939393;
+    border: 1px solid #939393;
+    border-radius: 10px;
+}
+
+.Right-bar {
+    margin: 0;
+    width: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right-icon {
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    background-color: #4A4A4A;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.right-icon:hover {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
